@@ -17,7 +17,7 @@ class App extends React.Component {
   render() {
     return (
      <Provider>
-      <BrowserRouter>
+      <BrowserRouter basename="contactManager">
         <main style={{ fontSize:"14px" }}>
           <Nav/>
           <div className="container-fluid">  
